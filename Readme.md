@@ -31,7 +31,7 @@ I classified customers into **High, Mid, and Low Value** groups based on their L
 - 📊 **Visualization:**
 
 
-<img src="images\customer_segments.png" width="50%"> 
+<img src="images\customer distribution ltv.png" width="50%"> 
 
  
 
@@ -90,10 +90,10 @@ I measured **customer retention vs. churn** across cohorts by tracking whether c
 
 - 🔗 [SQL Query](3_retention_analysis.sql)  
 - 📊 **Visualization:**
-<img src="images\retention and churn based on cohort year.jpeg">
+<img src="images\retention and churn based on cohort year.jpeg" width="50%">
 ---
 
-<img src="images\customer retention and chun.png" width="75%">
+<img src="images\customer retention and chun.png" width="50%">
 
 ### **🔄 Retention Analysis**  
 From the retention analysis based on **customer status (Active vs. Churned within 6 months):**  
