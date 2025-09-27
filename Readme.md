@@ -26,8 +26,8 @@ This project dives into sales data using SQL to uncover insights on business per
 1️⃣ **Customer Segmentation**  
 I classified customers into **High, Mid, and Low Value** groups based on their Lifetime Value (LTV), calculated from total net revenue over their entire relationship. This helps identify how much value each segment contributes to overall sales.  
 
-- 🔗 [SQL Query](link-to-sql-query-task1)  
-- 📊 [Visualization](link-to-visual-task1)  
+- 🔗 [SQL Query](1_customer_segmentation.sql)  
+- 📊 [Visualization](images\customer_segments.png)  
  
 
 ### **👥 Customer Segmentation**  
@@ -51,8 +51,8 @@ The company should prioritize **retaining and nurturing High-Value customers**, 
 2️⃣ **Cohort Analysis**  
 I analyzed customers by their **first purchase year (2015–2024)** to measure total revenue, average revenue per customer, and how each cohort impacts future sales performance. This uncovers trends in customer acquisition quality and revenue patterns.  
 
-- 🔗 [SQL Query](link-to-sql-query-task2)  
-- 📊 [Visualization](link-to-visual-task2)  
+- 🔗 [SQL Query](2_cohort_analysis.sql)  
+- 📊 [Visualization](images\cohort year performance.png)  
 
 ### **📅 Cohort Analysis**  
 From the cohort analysis based on **first purchase year (2015–2024):**  
@@ -82,8 +82,8 @@ The company should **replicate the strategies from 2018–2019 cohorts** (succes
 3️⃣ **Retention Analysis**  
 I measured **customer retention vs. churn** across cohorts by tracking whether customers remained active within a 6-month period. This highlights retention performance and churn risk in different cohorts.  
 
-- 🔗 [SQL Query](link-to-sql-query-task3)  
-- 📊 [Visualization](link-to-visual-task3)  
+- 🔗 [SQL Query](3_retention_analysis.sql)  
+- 📊 [Visualization](images\customer retention and chun.png)  
 
 ### **🔄 Retention Analysis**  
 From the retention analysis based on **customer status (Active vs. Churned within 6 months):**  
