@@ -27,7 +27,12 @@ This project dives into sales data using SQL to uncover insights on business per
 I classified customers into **High, Mid, and Low Value** groups based on their Lifetime Value (LTV), calculated from total net revenue over their entire relationship. This helps identify how much value each segment contributes to overall sales.  
 
 - 🔗 [SQL Query](1_customer_segmentation.sql)  
-- 📊 [Visualization](images\customer_segments.png)  
+
+- 📊 **Visualization:**
+
+
+<img src="images\customer_segments.png" width="50%"> 
+
  
 
 ### **👥 Customer Segmentation**  
@@ -52,7 +57,8 @@ The company should prioritize **retaining and nurturing High-Value customers**, 
 I analyzed customers by their **first purchase year (2015–2024)** to measure total revenue, average revenue per customer, and how each cohort impacts future sales performance. This uncovers trends in customer acquisition quality and revenue patterns.  
 
 - 🔗 [SQL Query](2_cohort_analysis.sql)  
-- 📊 [Visualization](images\cohort year performance.png)  
+- 📊 **Visualization:**
+<img src="images\cohort year performance.png" with="50%">  
 
 ### **📅 Cohort Analysis**  
 From the cohort analysis based on **first purchase year (2015–2024):**  
@@ -83,7 +89,11 @@ The company should **replicate the strategies from 2018–2019 cohorts** (succes
 I measured **customer retention vs. churn** across cohorts by tracking whether customers remained active within a 6-month period. This highlights retention performance and churn risk in different cohorts.  
 
 - 🔗 [SQL Query](3_retention_analysis.sql)  
-- 📊 [Visualization](images\customer retention and chun.png)  
+- 📊 **Visualization:**
+<img src="images\retention and churn based on cohort year.jpeg">
+---
+
+<img src="images\customer retention and chun.png" width="75%">
 
 ### **🔄 Retention Analysis**  
 From the retention analysis based on **customer status (Active vs. Churned within 6 months):**  
@@ -154,7 +164,7 @@ Retention is consistently below **10% active customers**, which is alarming.
 Because every great analysis needs the right toolkit 🧰✨  
 
 - **Database**: PostgreSQL 🐘  
-- **Analysis Tool**: PostgreSQL (SQL queries & exploration) 📊  
+- **Analysis Tool**: PostgreSQL (SQL queries & exploration), Dbeaver 📊  
 - **Visualization**: ChatGPT, Gemini & Excel 📈  
 
 
